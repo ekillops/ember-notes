@@ -64,9 +64,9 @@
   _return multiple models with and rsvp hash ->_
   
     `model() {
-        return Ember.RSVP.hash({
-        rentals: this.store.findAll('rental'),
-        reviews: this.store.findAll('review')
+       return Ember.RSVP.hash({
+         rentals: this.store.findAll('rental'),
+         reviews: this.store.findAll('review')
       });
     },`
 
