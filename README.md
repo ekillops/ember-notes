@@ -107,3 +107,7 @@ Additional Notes:
 - When using `this.get('input_field')` to gather form input, helper MUST have value attribute, and written without quotes -> `{{input value=fieldName}}`
 
 - Never trust `this`
+
+- Actions should be initiated from components.
+
+- Variables to hide or show components should be stored within the component themselves.
