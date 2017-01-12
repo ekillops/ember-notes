@@ -47,7 +47,7 @@
   		propertyThree: DS.attr()
 		});`
 
-  _relationships are estabilished in models:_
+  _relationships are estabilished in models ->_
 
 	models/rental.js ->
  
@@ -61,7 +61,7 @@
   		  rental: DS.belongsTo('rental', { async: true })
 		});`
 
-  _return multiple models with and rsvp hash:_
+  _return multiple models with and rsvp hash ->_
   
     `model() {
         return Ember.RSVP.hash({
