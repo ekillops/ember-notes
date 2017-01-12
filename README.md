@@ -6,15 +6,17 @@
 
 `>ember new [project-name]`
 
+----------------------------------
 
 `>ember install ember-bootstrap`
 
+----------------------------------
  
 `>ember install ember-cli-sass`
 
   _change name of app.css file to app.scss_
 
-
+----------------------------------
 
 `>ember install emberfire`
   
@@ -33,6 +35,7 @@
   		  	},
 		}`
 
+----------------------------------
 
 `>ember g[enerate] model [model-name]`
 
@@ -67,10 +70,13 @@
       });
     },`
 
+----------------------------------
+
 `>ember g route index`
 
   _index must be generated manually but does not require and entry in router.js_
 
+----------------------------------
 
 `>ember g route [route-name]`
 
@@ -78,9 +84,11 @@
 	 
 	`this.route('route', {path: '/route/:route_param'});`
 
+----------------------------------
 
 `>ember g component [component-name]`
 
+----------------------------------
 
 `>ember g template application`
 
@@ -88,8 +96,11 @@
 
   _application.hbs should contain at least an {{outlet}} tag, where other templates will be displayed_
 
+----------------------------------
+
 `>ember s[erve]`
 
+----------------------------------
 
 Additional Notes:
 
