@@ -47,7 +47,7 @@
   		propertyThree: DS.attr()
 		});`
 
-  _relationships are estabilished in models ->_
+  _relationships are established in models ->_
 
 	models/rental.js ->
  
